@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { useSampleWorksContext  } from '../hooks/useSampleWorksContext'
-import '../Styles/masterpage.css'
+import '../styles/masterpage.css'
 
 const SampleWorksForm = () => {
   const { dispatch } = useSampleWorksContext ()
