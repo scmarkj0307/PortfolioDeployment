@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.mscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    z-index: -100000;
+    background: radial-gradient(circle at center, #292b2c, #000000);
+}
+
+
+.choices {
+    position: relative;
+    margin-top: 2rem;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height:100%;
+    min-width: 100%;
+    gap: 4rem;
+    
+    
+  }
+
+  .choices h2 {
+    font-size: 2rem;
+    color: #B7ADA1; /* Adjust the font color to ensure visibility on the background */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional: Add text shadow for better contrast */
+}
+
+
+  
+  .ch1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:350px;
+    min-width: 350px;
+    background: linear-gradient(45deg, #3B362F, #706C65, #3B362F); /* Add another color stop as needed */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    animation: shinyEffect 2s infinite linear; /* Adjust the animation duration and other properties as needed */
+    transition: filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+  }
+  
+  
+  .ch2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    min-width: 350px;
+    background: linear-gradient(45deg, #3B362F, #706C65, #3B362F); /* Add another color stop as needed */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    animation: shinyEffect 2s infinite linear; /* Adjust the animation duration and other properties as needed */
+    transition: filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+@keyframes shinyEffect {
+  0% {
+      background-position: 200% 50%;
+  }
+  100% {
+      background-position: -100% 50%;
+  }
+}
+
+.ch1:hover {
+  filter: brightness(1.1); /* Increase brightness on hover */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8); /* Add a subtle cyan box shadow on hover */
+}
+
+.ch2:hover {
+  filter: brightness(1.1); /* Increase brightness on hover */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8); /* Add a subtle cyan box shadow on hover */
+}
+
+
+
+
+
+
+
+  @media (max-width: 1000px){
+    .choices{
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .choices h2 {
+      font-size: 1.5rem;
+
+      
+      
+    }
+  
+
+    .ch1{
+      min-height:150px;
+       min-width: 300px;
+    }
+
+    .ch2{
+      min-height:150px;
+      min-width: 300px;
+    }
+  }
+
+  @media (max-width: 750px){
+   
+    .choices h2 {
+      font-size: 1rem;
+
+      
+      
+    }
+  
+
+    .ch1{
+      min-height:100px;
+       min-width: 250px;
+    }
+
+    .ch2{
+      min-height:100px;
+      min-width: 250px;
+    }
+  }
+
+  @media (max-width: 500px){
+   
+
+    .ch1{
+      min-height:100px;
+      min-width: 200px;
+    }
+
+    
+
+    .ch2{
+      min-height:100px;
+      min-width: 200px;
+    }
+
+   
+  }
+ 
