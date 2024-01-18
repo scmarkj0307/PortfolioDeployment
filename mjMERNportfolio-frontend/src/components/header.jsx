@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-import '../Styles/header.css';
+import '../styles/header.css';
 
 const Header = () => {
   const [clicked, setClicked] = useState(false);

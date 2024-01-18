@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { usePersonalInfoContext } from '../hooks/usePersonalInfoContext';
-import '../Styles/masterpage.css';
+import '../styles/masterpage.css';
 
 const PersonalInfoForm = () => {
   const { dispatch } = usePersonalInfoContext();

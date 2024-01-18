@@ -5,7 +5,7 @@ import '../styles/landingpage.css'
 
 
 //components import
-import Header from '../Components/header'
+import Header from '../components/header'
 import MouseCursor from '../components/cursor.jsx'
 import ClickmeModal from '../components/clickmeModal.jsx';
 
@@ -21,16 +21,16 @@ import axios from 'axios';
 
 
 //Images import
-import dp3 from '../Assets/Images/dp3.png';
-import C1 from '../Assets/Carousel/SampleWorks/w1.jpg'
-import C2 from '../Assets/Carousel/SampleWorks/w2.jpg'
-import C4 from '../Assets/Carousel/SampleWorks/w3.jpg'
-import a2 from '../Assets/Carousel/PersonalInfo/systemD.jpg'
-import a3 from '../Assets/Carousel/PersonalInfo/thesisD.jpg'
-import a4 from '../Assets/Carousel/PersonalInfo/phblockchain.jpg'
-import Location from '../Assets/ContactImages/location.png'
-import Mail from '../Assets/ContactImages/mail.png'
-import Call from '../Assets/ContactImages/call.png'
+import dp3 from '../assets/Images/dp3.png';
+import C1 from '../assets/Carousel/SampleWorks/w1.jpg'
+import C2 from '../assets/Carousel/SampleWorks/w2.jpg'
+import C4 from '../assets/Carousel/SampleWorks/w3.jpg'
+import a2 from '../assets/Carousel/PersonalInfo/systemD.jpg'
+import a3 from '../assets/Carousel/PersonalInfo/thesisD.jpg'
+import a4 from '../assets/Carousel/PersonalInfo/phblockchain.jpg'
+import Location from '../assets/ContactImages/location.png'
+import Mail from '../assets/ContactImages/mail.png'
+import Call from '../assets/ContactImages/call.png'
 
 
 
