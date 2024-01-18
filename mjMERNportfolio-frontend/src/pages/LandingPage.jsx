@@ -260,9 +260,9 @@ const images2 = useMemo(() => [a2, a3, a4], []); // Wrap the initialization in u
                           <span className="spot"></span>CLICK ME!!</button>
                       </div>
                   </div>
+                </div>
                 <div className="swcarouselLabel">
                   <h1>Sample Works</h1>
-                </div>
                 </div>
                 <div className="swcarouselDescription">
                   <p>This projects highlight my expertise and creativity across various technologies.

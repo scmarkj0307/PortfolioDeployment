@@ -206,6 +206,7 @@
   .modalContainer{
     width: 300px;
     height: 350px;
+ 
 
   }
 
@@ -225,7 +226,7 @@
 @media(max-width: 400px){
   .modalContainer{
     width: 200px;
-    height: 450px;
+    height: 400px;
 
   }
 
@@ -239,6 +240,7 @@
 
   .footer button {
     font-weight: 400;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
+
   }
 }
