@@ -1,4 +1,4 @@
-import '../Styles/masterselection.css'
+import '../styles/masterselection.css'
 import DarkHeader from '../components/darkHeader'
 import { useNavigate } from 'react-router-dom';
 
