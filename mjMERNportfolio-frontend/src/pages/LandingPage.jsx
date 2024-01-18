@@ -5,7 +5,7 @@ import '../styles/landingpage.css'
 
 
 //components import
-import Header from '../Components/header'
+import Header from '../components/header'
 import MouseCursor from '../components/cursor.jsx'
 import ClickmeModal from '../components/clickmeModal.jsx';
 
