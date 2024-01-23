@@ -209,7 +209,7 @@ const images2 = useMemo(() => [a2, a3, a4], []); // Wrap the initialization in u
                   </div>
                 </div>
                 <div className="c-4">
-                   <a className='button' href="https://github.com/scmarkj0307">
+                   <a className='button' href="https://www.linkedin.com/in/markjarnaiz/">
                       <span></span><span></span>
                       <span></span><span></span>
                         LINKEDiN
@@ -219,12 +219,12 @@ const images2 = useMemo(() => [a2, a3, a4], []); // Wrap the initialization in u
                       <span></span><span></span>
                         GITHUB
                     </a>
-                    <a className='button' href="https://github.com/scmarkj0307">
+                    <a className='button' href="https://read.cv/markjarnaiz">
                       <span></span><span></span>
                       <span></span><span></span>
                         CV
                     </a>
-                    <a className='button' href="https://github.com/scmarkj0307">
+                    <a className='button' href="https://drive.google.com/file/d/12WdKnEWg5WqIsFceqiv8Am9YPoc_ockz/view?usp=sharing">
                       <span></span><span></span>
                       <span></span><span></span>
                         RESUME
@@ -395,7 +395,7 @@ const images2 = useMemo(() => [a2, a3, a4], []); // Wrap the initialization in u
                       </li>
                       <li>
                         <span><img src={Mail} alt="Mail" /></span>
-                        <span>Sc.markj0307@gmail.com</span>
+                        <span>Jhonmarkruiz.arnaiz@gmail.com</span>
                       </li>
                       <li>
                         <span><img src={Call} alt="Call" /></span>

@@ -151,3 +151,9 @@ input.error {
   background-color: black;
 }
 
+.loader-text{
+  color: #B7ADA1;
+  position: absolute;
+  top: 2rem;
+}
+

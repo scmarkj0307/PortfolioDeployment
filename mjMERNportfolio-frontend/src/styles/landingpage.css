@@ -881,6 +881,7 @@ body{
   }
   .info li {
     position: relative;
+    left: -1rem;
     list-style: none;
     display: flex;
     margin: 25px 0 ;
@@ -1116,6 +1117,10 @@ body{
     }
     .contactForm h2{
       margin-left: 1.5rem;
+    }
+
+    .info li {
+    left: 1rem;
     }
   
   

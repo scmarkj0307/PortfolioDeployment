@@ -5,6 +5,7 @@ import axios from 'axios';
 import '../styles/guesspage.css';
 import '../styles/landingpage.css' 
 import { usePersonalInfoContext } from '../hooks/usePersonalInfoContext';
+import Typewriter from 'typewriter-effect';
 
 function PersonalInfoGuesspage() {
   const { personalInfo, dispatch } = usePersonalInfoContext();
@@ -38,10 +39,21 @@ function PersonalInfoGuesspage() {
       <div className="gphome">
         {loading ? (
           // Loading screen
+          <>
+          <h2 className='loader-text'><Typewriter
+                                options={{
+                                strings: ["Pleaseee wait, for 1-2mins to see my greatness", "Im only using free usage hosting service", "Sorry for inconvenience" , "It will only load like this for the first time", " Pleasee bare with it!!"],
+                                autoStart: true,
+                                loop: true,
+                                }}
+                        /></h2>
+
           <div className="loading-screen">
             <span className="loader"></span>
-            {/* You can add a loading animation or any other content here */}
+
+            
           </div>
+          </>
         ) : (
           <div className="gpworkouts">
             {personalInfo &&
